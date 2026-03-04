@@ -11,3 +11,7 @@ lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Se
 | -------- | -------- | -------- |
 | Row 1    | Data 1   | Data 2   |
 | Row 2    | Data 3   | Data 4   |
+
+[Link to Google](https://www.google.com)
+
+<img src="https://via.placeholder.com/150" alt="Placeholder Image">
