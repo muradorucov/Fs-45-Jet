@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("./reset.css");
+
+
+body {
+  font-family: "Istok Web", sans-serif;
+  color: #63636b;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h2,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  width: 75%;
+  margin-inline: auto;
+}
+
+section {
+  padding-block: 4rem;
+
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+
+    .sub-title {
+      color: #2c7ae7;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: #3b3b44;
+      margin-top: 10px;
+      font-weight: 700;
+
+    }
+  }
+
+
+  main {
+    display: flex;
+    gap: 30px;
+
+
+    article {
+      width: 25%;
+      border-radius: 10px;
+      overflow: hidden;
+      border: #adadb3 solid 1px;
+      transition: all .3s;
+
+      img {
+        height: 250px;
+      }
+
+      .team-info {
+        padding: 22px 20px;
+        text-align: center;
+        position: relative;
+
+        ul {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          position: absolute;
+          top: -40px;
+          left: 0;
+          right: 0;
+          transition: all .3s;
+          opacity: 0;
+
+          i {
+            width: 1.75rem;
+            height: 1.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            color: #fff;
+            background-color: #2c7ae7;
+          }
+        }
+
+        h4 {
+          font-size: 1.125rem;
+          color: #212529;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 0 0.8125rem 0 rgb(196, 183, 183);
+        border-color: #d4d4e1;
+
+        ul {
+          top: -15px;
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+
+  footer {
+    margin-top: 4rem;
+
+    button {
+      display: block;
+      width: 250px;
+      margin-inline: auto;
+      background: linear-gradient(to right, #568ad3 0, #0f58bd 100%);
+      border: 1px #917cddec solid;
+      border-radius: 6px;
+      padding: 13px 22px;
+      color: #fff;
+
+
+      &:hover {
+        background: linear-gradient(to left, #568ad3 0, #0f58bd 100%);
+
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-inline: auto;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#chip {
+  width: 50px;
+  padding-top: 35px;
+  margin-left: -5px;
+}
+
+#visa {
+  width: 100px;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+article {
+  width: 315px;
+  height: 200px;
+  background-color: #8e44ad;
+  border-radius: 10px;
+  padding-left: 15px;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#card-number {
+  font-size: 25px;
+  font-weight: 200;
+  margin-top: -5px;
+}
+
+.fullname {
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer div {
+  font-family: 'Tahoma', sans-serif;
+}
+
+.valid {
+  font-size: 9px;
+}
+
+article:nth-child(2) {
+  background-color: #009432;
+}
+
+article:nth-child(3) {
+  background-color: #0652DD;
+}
+
+article:nth-child(4) {
+  background-color: #161617;
+}

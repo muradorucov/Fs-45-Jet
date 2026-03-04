@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 350px;
+  height: 450px;
+  position: relative;
+
+  div {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: all 1s;
+    backface-visibility: hidden;
+  }
+}
+
+.front {
+  background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg");
+}
+
+.back {
+  background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg");
+  transform: rotateY(-180deg);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+}
+
+.box:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.box:hover .back {
+  z-index: 1;
+  transform: rotateY(0);
+}

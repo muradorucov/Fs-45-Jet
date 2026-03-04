@@ -1,0 +1,55 @@
+/* main => x */
+/* cros => y */
+/* flex-driection:row , column, row-reverse, column-reverse*/
+
+/* main: justify-content || justify-items */
+/* cros: align-content || align-items */
+/* content: start , flex-start, end , flex-end, center, space-between, space-aorund, space-evenly  */
+/* item: start, flex-start, end , flex-end, center, stretch, baseline */
+
+/* flex-wrap: wrap, no-wrap, wrap-reverse */
+/* gap, row-gap, column-gap */
+
+.con {
+  width: 80%;
+  max-width: 1000px;
+  height: 1000px;
+  margin-inline: auto;
+  border: 2px solid red;
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+  /* flex-wrap: wrap;
+  flex-direction: row-reverse; */
+  /* flex-flow: row-reverse wrap; */
+  /* flex-wrap: nowrap; */
+  /* flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  font-size: 45px;
+  color: #fff;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.item:nth-child(3) {
+  /* order: 1;
+  flex: 1 1 100%; */
+  flex-grow: 2;
+  flex-basis: 50%;
+  align-self: center;
+}
+
+.item:nth-child(4) {
+  /* order: -1; */
+  flex-grow: 4;
+  flex-shrink: 3;
+  align-self: flex-end;
+}

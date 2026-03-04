@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .box {
+  width: 300px;
+  height: 300px;
+  transition: 300ms; */
+  /* display: none; */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+
+  /* background-color: brown;
+  padding: 30px;
+  border: 10px solid;
+  box-sizing: border-box; */
+/* } */
+
+/* .box:hover {
+  visibility: visible;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+} */
+
+
+
+/* display: none,block,inline,inline-block,flex,grid */
+
+/* nav a { */
+  /* background-color: yellow;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  width: 100px;
+  height: 60px;
+  margin: 30px; */
+  /* display: inline; */
+  /* display: inline-block; */
+/* } */
+
+
+/* none: elem yeri ve ozu gizlenir */
+/* opacity: elem yerini qoruyur ve cursor onu gorur, */
+/* visibilty: elem yerini qoruyur ve cursor onu gormur, */

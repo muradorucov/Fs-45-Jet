@@ -1,0 +1,68 @@
+/* p {
+  color: #ee04ff;
+  font-size: 30px;
+  line-height: 50px;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  text-decoration: line-through;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  rem , em => 16px
+
+
+} */
+
+/* 255104100
+#FF6864 */
+/* A,B,C,D,E,F */
+
+
+
+
+
+
+
+
+
+/* tagname , id, class */
+/* #desc {
+  background-color: red;
+}
+
+.parag {
+  background-color: violet;
+}
+
+p {
+  background: #000 !important;
+  color: #fff;
+}
+
+p#desc.parag.parag3 {
+  background-color: red;
+} */
+
+
+/* " ",  > +  */
+
+/* id >class>tagname */
+
+/* .mainbox+p {
+  color: red;
+} */
+
+/* .menu>li{
+
+} */
+
+
+/* .mainbox>.item3 p{
+
+} */
+
+/* p+a{
+
+} */

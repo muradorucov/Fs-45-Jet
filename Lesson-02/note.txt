@@ -1,0 +1,25 @@
+Server  <=> Client
+Response <=> Request 
+
+
+GET,PUT,POST,DELETE
+
+
+DOMEIN => HOSTING (VPS)
+
+
+DNS => Domein Name Server
+
+
+<meta http-equiv="refresh" content="5"> || WSS 
+
+
+https || WSS
+
+
+
+
+list 
+Table 
+forms 
+semantica

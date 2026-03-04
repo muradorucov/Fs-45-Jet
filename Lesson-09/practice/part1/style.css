@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: .3s;
+}
+
+.container {
+  max-width: 1320px;
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  background-color: #f8f9fa;
+  padding-block: 100px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+article {
+  width: calc(100%/3 - 30px);
+  display: inline-block;
+}
+
+article:not(article:last-child) {
+  margin-right: 30px;
+}
+
+img:hover {
+  scale: 1.1;
+}
+
+article div {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
