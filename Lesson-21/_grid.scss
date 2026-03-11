@@ -1,0 +1,21 @@
+@mixin createLayout($size, $max, $min) {
+    @media screen and (max-width:$max) and (min-width:$min) {
+        $i: 0;
+        @while $i<13 {
+            $i: $i+1;
+            .col-#{$size}-#{$i} {
+                width: calc(100%/12*#{$i});
+            }
+        }
+    }
+}
+
+
+
+
+// xs
+// sm
+// md
+// lg
+// xl
+// xxl

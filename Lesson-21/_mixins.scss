@@ -1,0 +1,31 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin create-btn($color, $bgcolor, $bordercolor, $isIcon) {
+  width: 150px;
+  background-color: $bgcolor;
+  color: $color;
+  padding: 20px;
+  border: 1px solid $bordercolor;
+  display: flex;
+  align-items: center;
+
+  @if $isIcon ==false {
+    justify-content: center;
+
+    span {
+      display: none;
+    }
+  }
+
+  @else {
+    justify-content: space-between;
+  }
+
+}
+
+

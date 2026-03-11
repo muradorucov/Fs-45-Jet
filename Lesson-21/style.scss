@@ -1,0 +1,64 @@
+@import "./varibales";
+@import "./mixins";
+@import "./grid";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7rem;
+  box-shadow: 10px 10px 10px -1px black;
+  font-family: $font;
+
+  .logo {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  ul {
+    gap: 30px;
+    @include flex-center;
+
+    li {
+      padding: 10px 30px;
+
+      a {
+        color: $maincolor;
+        text-decoration: none;
+      }
+    }
+  }
+
+  // button {
+  //   @include create-btn(#fff, red)
+  // }
+}
+
+
+.btn-primary{
+  @include create-btn(#fff, rgb(103, 103, 231), blue, false)
+}
+
+.btn-danger{
+  @include create-btn(#fff, rgb(228, 80, 54), rgb(230, 230, 251), true)
+}
+
+.btn-success{
+  @include create-btn(#fff, rgb(206, 203, 23), rgb(29, 29, 41), true)
+}
+
+$i: 1;
+
+@while $i <= 10 {
+  .w-#{$i} {
+    width: 100px *$i;
+  }
+
+  $i: $i+1
+}
+
+@include createLayout("xl", auto, 1200px);
+@include createLayout("lg", 1200px, 992px);
+@include createLayout("md", 992px, 768px);
+@include createLayout("sm", 768px, 576px);
+@include createLayout("xs", 576px, 0px);
